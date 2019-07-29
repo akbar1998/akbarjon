@@ -1,0 +1,105 @@
+.body {
+    text-decoration: none;
+}
+a { color: inherit;
+
+
+
+} 
+img {
+    width: 20px;
+ 
+}
+a {
+    color: #000;
+    text-decoration: none;
+  
+}
+
+a:hover 
+{
+     color:#000; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+.row {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+ 
+}
+.form-row {
+    margin-left: 100px;
+    margin-right: 100px;
+    z-index: 5;
+    position: relative;
+   
+}
+.form {
+    background-image: url(../img/full.jpg);
+    background-size: 100%;
+    height: 300px;
+    position: relative;
+   
+}
+.form::before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+}
+
+.h3 {
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+.col-6 {
+    font-size: 12px;
+}
+.zamer{
+    background-image: url(../img/1zamer.jpg);
+    background-size: 100%;
+}
+.card-img-top {
+    height: 100%;
+}
+.btn {
+    margin-top: 195px;
+}
+
+.card::before{
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+ transition: all 1s;
+}
+
+.card:hover::before{
+    background-color: rgba(0,0,0,.5);
+}
+.col-12 h4::after{
+    content: '';
+    height: 1px;
+    background: #000;
+    
+    bottom: -15px;
+    width: 30px;
+    position: absolute;
+}
+.card {
+    margin-top: 30px;
+}
